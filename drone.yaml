@@ -13,13 +13,13 @@ spec:
         app: drone
     spec:
       containers:
-      - name: drone
+      - name: default
         image: drone/drone:1.0.0
         env:
         - name: DRONE_KUBERNETES_ENABLED
           value: "true"
         - name: DRONE_KUBERNETES_NAMESPACE
-          value: drone
+          value: default
         - name: DRONE_GITHUB_SERVER
           value: https://github.com
         - name: DRONE_GITHUB_CLIENT_ID

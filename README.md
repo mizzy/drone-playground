@@ -4,7 +4,7 @@
 
 - [Drone CI – Automate Software Testing and Delivery](https://drone.io/)
 - [Kubernetes](https://docs.drone.io/installation/github/kubernetes/)
-- [Expose Kubernetes services over HTTPS with Ngrok](https://stefanprodan.com/2018/expose-kubernetes-services-over-http-with-ngrok/)
+- [User Guide](https://docs.drone.io/user-guide/)
 
 ## Prerequisite
 
