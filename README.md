@@ -35,6 +35,7 @@ export DRONE_SERVER_HOST=xxxxx
 $ kubectl create ns drone
 $ kubens drone
 $ envsubst < drone.yaml | kubectl apply -f -
+$ kubectl apply -f drone-rbac.yml 
 $ kubectl port-forward deployment/drone 8080:80
 ```
 
